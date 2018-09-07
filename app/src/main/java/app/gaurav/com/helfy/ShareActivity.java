@@ -13,6 +13,8 @@ import android.support.v7.widget.helper.ItemTouchHelper;
 import android.view.View;
 import android.widget.LinearLayout;
 
+import com.example.arvindbedi.helfy.R;
+
 public class ShareActivity extends AppCompatActivity {
 
 
