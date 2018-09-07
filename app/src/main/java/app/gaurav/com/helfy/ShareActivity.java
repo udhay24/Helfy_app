@@ -1,4 +1,4 @@
-package app.gaurav.com.helfy;
+package com.example.arvindbedi.helfy;
 
 import android.content.Intent;
 import android.support.annotation.NonNull;
@@ -12,10 +12,6 @@ import android.support.v7.widget.Toolbar;
 import android.support.v7.widget.helper.ItemTouchHelper;
 import android.view.View;
 import android.widget.LinearLayout;
-
-import app.gaurav.com.helfy.AddShareItem;
-import app.gaurav.com.helfy.R;
-import app.gaurav.com.helfy.ShareRecyclerAdapter;
 
 public class ShareActivity extends AppCompatActivity {
 
@@ -60,6 +56,6 @@ public class ShareActivity extends AppCompatActivity {
             }
         });
 
-        return touchHelper;}
+    return touchHelper;}
 
 }
