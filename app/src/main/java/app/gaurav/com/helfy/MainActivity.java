@@ -31,8 +31,8 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
-import com.example.arvindbedi.helfy.Adapters.OrdersAdapter;
 import com.example.arvindbedi.helfy.Model.Order;
+import com.example.arvindbedi.helfy.R;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -40,13 +40,15 @@ import org.json.JSONObject;
 
 import java.util.ArrayList;
 
+import app.gaurav.com.helfy.OrdersAdapter;
+
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener{
 
     RecyclerView recyclerView;
 
     LinearLayoutManager linearLayoutManager;
 
-    OrdersAdapter adapter;
+   OrdersAdapter adapter;
 
     public ArrayList<String> type = new ArrayList<String>();
     public ArrayList<String> name = new ArrayList<String>();
