@@ -1,4 +1,4 @@
-package com.example.arvindbedi.helfy;
+package app.gaurav.com.helfy;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;

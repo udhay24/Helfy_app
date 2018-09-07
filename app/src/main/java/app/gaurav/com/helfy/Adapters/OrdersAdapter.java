@@ -1,4 +1,4 @@
-package com.example.arvindbedi.helfy.Adapters;
+package app.gaurav.com.helfy;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
