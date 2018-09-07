@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.arvindbedi.helfy">
+    package="app.gaurav.com.helfy">
 
     <!-- To auto-complete the email text field in the login form with the user's emails -->
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
@@ -33,7 +33,6 @@
         <activity
             android:name=".AddShareItem"
             android:parentActivityName=".MainActivity" />
-        <activity android:name=".MainActivity" />
         <activity android:name=".Details" />
         <activity android:name=".StatisticsActivity"></activity>
     </application>
