@@ -15,6 +15,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.Toolbar;
 
+import com.example.arvindbedi.helfy.R;
+
 public class AddShareItem extends AppCompatActivity {
 
     String title;

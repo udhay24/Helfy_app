@@ -3,6 +3,9 @@ package app.gaurav.com.helfy;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
+import com.example.arvindbedi.helfy.R;
+
+
 public class SettingsActivity extends AppCompatActivity {
 
     @Override
