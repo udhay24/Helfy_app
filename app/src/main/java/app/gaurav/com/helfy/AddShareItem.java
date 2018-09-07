@@ -1,5 +1,4 @@
-package app.gaurav.com.helfy;
-
+package com.example.arvindbedi.helfy;
 
 import android.content.Intent;
 import android.graphics.Bitmap;
@@ -33,7 +32,7 @@ public class AddShareItem extends AppCompatActivity {
         titleEditText = findViewById(R.id.tileEditText);
         descriptionEditText = findViewById(R.id.descriptionEditText);
         imageButton = findViewById(R.id.image_button);
-        Bundle bundle = getIntent().getExtras();
+                Bundle bundle = getIntent().getExtras();
         android.support.v7.widget.Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
@@ -52,7 +51,7 @@ public class AddShareItem extends AppCompatActivity {
         }else{
             getSupportActionBar().setTitle("Add");
         }
-        FloatingActionButton floatingActionButton = findViewById(R.id.floatingActionButton);
+    FloatingActionButton floatingActionButton = findViewById(R.id.floatingActionButton);
         floatingActionButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -80,10 +79,10 @@ public class AddShareItem extends AppCompatActivity {
         if(data != null)
         {
 
-            Bundle bundle = data.getExtras();
-            Bitmap bitmap = (Bitmap)bundle.get("data");
-            imageButton.setImageBitmap(bitmap);
-        }}
+        Bundle bundle = data.getExtras();
+        Bitmap bitmap = (Bitmap)bundle.get("data");
+        imageButton.setImageBitmap(bitmap);
+    }}
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
