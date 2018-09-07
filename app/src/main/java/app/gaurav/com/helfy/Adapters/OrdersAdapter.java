@@ -1,4 +1,4 @@
-package app.gaurav.com.helfy;
+package app.gaurav.com.helfy.Adapters;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -9,13 +9,16 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.example.arvindbedi.helfy.Model.Order;
-import com.example.arvindbedi.helfy.R;
+
+
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
+
+import app.gaurav.com.helfy.Model.Order;
+import app.gaurav.com.helfy.R;
 
 public class OrdersAdapter extends RecyclerView.Adapter<OrdersAdapter.MyViewHolder> {
 

@@ -1,4 +1,4 @@
-package com.example.arvindbedi.helfy.Model;
+package app.gaurav.com.helfy.Model;
 
 public class Order {
 
