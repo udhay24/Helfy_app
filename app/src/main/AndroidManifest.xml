@@ -33,6 +33,7 @@
         <activity
             android:name=".AddShareItem"
             android:parentActivityName=".MainActivity" />
+        <activity android:name=".MainActivity" />
         <activity android:name=".Details" />
         <activity android:name=".StatisticsActivity"></activity>
     </application>

@@ -1,9 +1,5 @@
 package app.gaurav.com.helfy;
 
-import android.util.Log;
-import android.widget.ImageButton;
-
-import com.example.arvindbedi.helfy.R;
 
 import java.util.ArrayList;
 
