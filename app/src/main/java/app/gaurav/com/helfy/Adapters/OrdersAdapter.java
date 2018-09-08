@@ -3,6 +3,7 @@ package app.gaurav.com.helfy.Adapters;
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -46,6 +47,14 @@ public class OrdersAdapter extends RecyclerView.Adapter<OrdersAdapter.MyViewHold
         String date = list_items.getDate();
 
         String[] Date = date.split("-");
+
+/*     *//*This set of code is introduced because of a bug in wrong format of date in the
+     first view date object*//*
+     if(Date.length != 3){
+         Date = new String[]{"2018","08","7"};
+     }
+      *//*end of code*/
+
 
         holder.day.setText(Date[2]);
         holder.monthyear.setText(getMonth(Date[1])+Date[0]);
