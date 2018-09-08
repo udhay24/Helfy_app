@@ -220,10 +220,10 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 intent = new Intent(this , StatisticsActivity.class);
                 startActivity(intent);
                 break;
-           /* case R.id.logout_item:
+            case R.id.logout_item:
                 intent = new Intent(MainActivity.this , LoginActivity.class);
                 startActivity(intent);
-                break;*/
+                break;
         }
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
